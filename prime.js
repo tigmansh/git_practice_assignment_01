@@ -1,4 +1,5 @@
 function checkPrime(num){
+
 let factor=0;
 for (let i=1; i<=num; i++ ){
 if (num%i==0){
@@ -12,7 +13,7 @@ return false;
 }
 }
 
-let ans= checkPrime(17)
+let ans= checkPrime(12)
 if (ans==true){
 console.log("Prime");
 } else {
